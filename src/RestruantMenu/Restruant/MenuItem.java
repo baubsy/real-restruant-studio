@@ -1,10 +1,16 @@
 package RestruantMenu.Restruant;
 
 public class MenuItem {
-    String category;
-    String date;
-    double price;
-    String description;
-    String name;
-    boolean isNew;
+    private String category;
+    private double price;
+    private String description;
+    private String name;
+
+    public MenuItem(String name, String description, String category, double price){
+        this.name = name;
+        this.description = description;
+        this.category = category;
+        this.price = price;
+    }
+
 }
