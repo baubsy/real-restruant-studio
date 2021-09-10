@@ -1,4 +1,4 @@
-package com.company;
+package RestruantMenu;
 
 public class Main {
 
