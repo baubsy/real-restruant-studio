@@ -1,4 +1,4 @@
-package RestruantMenu;
+package RestaurantMenu;
 
 public class Main {
 
