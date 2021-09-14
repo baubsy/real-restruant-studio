@@ -16,6 +16,10 @@ public class Menu {
         menuItems.remove(item);
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "menuItems=" + menuItems +
+                '}';
+    }
 }

@@ -14,6 +14,17 @@ public class MenuItem {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "MenuItem{" +
+                "category='" + category + '\'' +
+                ", price=" + price +
+                ", description='" + description + '\'' +
+                ", name='" + name + '\'' +
+                ", isNew=" + isNew +
+                '}';
+    }
+
     public String getCategory() {
         return category;
     }
