@@ -16,6 +16,8 @@ public class MenuItem {
 
     @Override
     public String toString() {
+        return this.name + " is a " + this.category + ". It is " + this.description + " and costs $" + price;
+        /*
         return "MenuItem{" +
                 "category='" + category + '\'' +
                 ", price=" + price +
@@ -23,6 +25,8 @@ public class MenuItem {
                 ", name='" + name + '\'' +
                 ", isNew=" + isNew +
                 '}';
+
+         */
     }
 
     public String getCategory() {

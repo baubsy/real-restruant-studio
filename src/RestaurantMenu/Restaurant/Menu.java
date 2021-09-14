@@ -18,8 +18,10 @@ public class Menu {
 
     @Override
     public String toString() {
-        return "Menu{" +
-                "menuItems=" + menuItems +
-                '}';
+        String retString = "The menu was last updated on " + this.lastUpdated + "\n";
+        for(MenuItem item : menuItems){
+            retString = retString + item.toString() + "\n";
+        }
+        return retString;
     }
 }
