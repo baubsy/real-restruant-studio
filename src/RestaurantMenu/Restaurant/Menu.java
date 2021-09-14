@@ -10,7 +10,7 @@ public class Menu {
       if (!menuItems.contains(item)) {
           menuItems.add(item);
           this.lastUpdated = new Date();
-      }
+      } else System.out.println(item +  "already on the Menu.");
     }
     public void removeItem(MenuItem item){
         menuItems.remove(item);
